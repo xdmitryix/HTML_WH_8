@@ -68,6 +68,8 @@ html {
 .top_photo {
   display: flex;
   justify-content: center;
+  width: 800px;
+  height: 764px;
 }
 
 .top_text {
