@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.top_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  background-color: rgba(34, 34, 34, 1);
+}
+
+.left_menu {
+  display: flex;
+  align-items: center;
+  margin-left: 231px;
+  gap: 41px;
+}
+
+.right_menu {
+  display: flex;
+  align-items: center;
+  margin-right: 231px;
+  gap: 66px;
+}
+
+.img_1 {
+  height: 38px;
+  width: 44px;
+}
+
+.img_2 {
+  height: 27px;
+  width: 26px;
+}
+
+.img_3 {
+  height: 23px;
+  width: 32px;
+}
+
+.img_4 {
+  height: 29px;
+  width: 29px;
+}
+
+.img_5 {
+  height: 37px;
+  width: 41px;
+}
+
+.top_content_one {
+  height: 764px;
+  background-color: rgba(241, 228, 230, 1);
+}
+
+.top_content_one {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.top_photo {
+  display: flex;
+  justify-content: center;
+}
+
+.top_text {
+  display: flex;
+  margin-top: 290px;
+  margin-left: 63px;
+  width: 405px;
+  height: 93px;
+}
+
+.top_text_line {
+  width: 12px;
+  background-color: rgba(241, 109, 127, 1);
+}
+
+.top_text_words {
+  margin-left: 16px;
+}
+
+.top_text_words_one {
+  font-family: Lato;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 57.6px;
+  text-align: left;
+}
+
+.top_text_words_two {
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  text-align: left;
+}
+
+.top_content_two {
+  margin-top: 65px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 360px 360px 360px;
+  grid-template-rows: 260px 180px;
+  gap: 30px;
+}
+
+.tct_item {
+  position: relative;
+}
+
+.tct_item1 {
+  grid-column: 1/4;
+}
+
+/* .tct_img {
+  position: relative;
+  top: 0;
+} */
+
+.one_tct_texts {
+  position: absolute;
+  top: 105px;
+  left: 103px;
+}
+
+.two_tct_texts {
+  position: absolute;
+  top: 105px;
+  left: 125px;
+}
+
+.three_tct_texts {
+  position: absolute;
+  top: 105px;
+  left: 123px;
+}
+
+.four_tct_texts {
+  position: absolute;
+  top: 65px;
+  left: 490px;
+}
+
+.tct_text1 {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  white-space: nowrap;
+}
+
+.tct_text2 {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  text-align: center;
+  color: rgba(241, 109, 127, 1);
+}
